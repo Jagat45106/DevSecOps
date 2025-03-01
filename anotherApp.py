@@ -55,3 +55,5 @@ class User(models.Model):
     # This should be hashed
     def __str__(self):
         return self.username
+    
+print("Another app print")
