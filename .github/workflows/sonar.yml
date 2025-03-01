@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   sonarqube:
-    name: SonarQube
+    name: SonarQube-Jagat-Scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
