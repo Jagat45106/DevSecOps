@@ -56,4 +56,4 @@ class User(models.Model):
     def __str__(self):
         return self.username
     
-print("Another app print")
+print("Another app print line added")
