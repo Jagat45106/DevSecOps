@@ -8,8 +8,5 @@ jobs:
   print-repo-name:
     runs-on: ubuntu-latest
     steps:
-      - name: Print full repository name (with user/org)
-        run: echo "Full repo name: ${{ github.repository }}"
-
       - name: Print repository name only (without user/org)
         run: echo "Repo name only: ${{ github.event.repository.name }}"
