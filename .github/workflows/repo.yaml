@@ -9,4 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print repository name only (without user/org)
-        run: echo "Repo name only: ${{ github.event.repository.name }}"
+        run: |
+          echo "Repo name only: ${{ github.event.repository.name }}"
