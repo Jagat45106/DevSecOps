@@ -1,9 +1,9 @@
 name: Print Repository Name
 
 on:
-  push:
-  pull_request:
-  workflow_dispatch:
+  push: {}
+  pull_request: {}
+  workflow_dispatch: {}
 
 jobs:
   print-repo-name:
