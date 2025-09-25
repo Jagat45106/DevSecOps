@@ -1,4 +1,7 @@
+name: Print Repository Name
+
 on:
+  push:
   pull_request:
   workflow_dispatch:
 
@@ -10,4 +13,4 @@ jobs:
         run: echo "Full repo name: ${{ github.repository }}"
 
       - name: Print repository name only (without user/org)
-        run: echo "Repo name only:
+        run: echo "Repo name only: ${{ github.event.repository.name }}"
